@@ -7,9 +7,7 @@ When I enter `<password>` in field located `By.xpath(//*[@id="password"])`
 When I click on element located `By.xpath(//*[@id="login"])`
 When I enter `<password>` in field located `By.xpath(//*[@id="password"])`
 When I click on element located `By.xpath(//*[@id="login-submit"])`
-Examples:
-|email                      |password|
-|sdil.multiscreen@gmail.com|Test1234!|
+
 
 
 When I wait until element located `By.xpath(//*[@class="apjY8WeqCXmbIo"])` appears
@@ -33,3 +31,7 @@ When I compare against baseline with `TrelloAccount`
 When I click on element located `By.xpath(//*[@data-tab="trelloGold"])`
 When I establish baseline with `TrelloGold`
 When I compare against baseline with `TrelloGold`
+
+Examples:
+|email                     |password|
+|sdil.multiscreen@gmail.com|Test1234!|
